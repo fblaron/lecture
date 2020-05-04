@@ -2,10 +2,10 @@ p {
 font-size:1em;
 }
 
-div{
+/* div{
     border-style: double;
     border-color: red;
-}
+} */
 .food-container{
 
     background-color:red;
