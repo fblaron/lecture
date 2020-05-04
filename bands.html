@@ -35,7 +35,7 @@
               <ul class="navbar-nav mr-auto">
                   <li class="nav-item active">
                       <a class="nav-link" href="index.html">Home
-                          <span class="sr-only">(current)</span>
+
                       </a>
                   </li>
                   <li class="nav-item">
@@ -44,11 +44,13 @@
                   <li class="nav-item">
                       <a class="nav-link" href="beverages.html">Beverages</a>
                   </li>
-                  <li class="nav-item">
-                      <a class="nav-link" href="bands.html">Jazz Bands</a>
+                  <li class="nav-item active">
+                      <a class="nav-link" href="bands.html">Jazz Bands
+                      <span class="sr-only">(current)</span>
+                      </a>
                   </li>
                   <li class="nav-item">
-                      <a class="nav-link" href="about.html">About</a>
+                      <a class="nav-link" href="#">About</a>
                   </li>
 
               </ul>
@@ -65,15 +67,26 @@
   <main>
       <div id="MainDiv m-5 ">
 
-          <!--Grid row-->
-          <div class="row" id="MainDivr1" style="text-align: center">
+          <!--Grid container-->
+          <div class="bands-container" id="bands-main-container">
 
-              <!--Grid column-->
-              <div class="col-md-12">
-                <h1 >Jazz house cafe and Restaurant</h1>
+              <!--Grid items-->
+              <div class="bands-item col-xl-4  col-lg-6 col-md-12">
+                <img class="lagayan-ng-bandspix" style="float:left; margin-right:5px;" src="images/bands/band-juan.jpeg" >
+                  <div>
+                      
+                      <p style="text-align:justify; padding :5px;">Some text here describing the bands, it;s members and thier scheduled gigs.
+                      put long description so in will wrap around the image </p>
+                  </div>
               </div>
-              <div class="col-md-12">
-                <img id="lagayan-ng-JazzHousePix" style="text-align: center" src="images/house.jpeg" >
+              <div class="bands-item">
+                <img class="lagayan-ng-bandspix" style="text-align: center" src="images/bands/band-too.jpeg" >
+              </div>
+              <div class="bands-item">
+                <img class="lagayan-ng-bandspix" style="text-align: center" src="images/bands/band-tree.jpeg" >
+              </div>
+              <div class="bands-item">
+                <img class="lagayan-ng-bandspix" style="text-align: center" src="images/bands/band-poor.jpeg" >
               </div>
               <!--Grid column-->
 

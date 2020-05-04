@@ -1,0 +1,153 @@
+p {
+font-size:1em;
+}
+
+div{
+    border-style: double;
+    border-color: red;
+}
+.food-container{
+
+    background-color:red;
+
+    display: flex;
+    flex-wrap: wrap;
+
+    flex-direction: row;
+  	justify-content: center;
+  	/* align-items: center; */
+}
+
+.food-container > div {
+background-color: springgreen;
+    font-size: 20px;
+    margin: 20px;
+    padding: 20px;
+    width: 200px;
+
+}
+.food-item-name {
+    font-family: sans-serif;
+    text-align: center;
+    font-weight: bold;
+  }
+
+.lagayan-ng-beverages {
+
+  	background-color: rgb(250,250,250);
+  	margin: 10px;
+  	height: 300px;
+
+  	display: flex;
+  	flex-direction: row;
+  	justify-content: center;
+  	align-items: center;
+  }
+
+  .beverages-item {
+  	background: rgb(36, 130, 39);
+    color: white;
+    font-size: 25px;
+    text-align: center;
+
+
+  }
+
+  .bands-container {
+  	background-color: rgb(250,250,250);
+  	margin: 10px;
+  	height: 500px;
+
+
+  	display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+  	justify-content: center;
+  	align-items: center;
+
+  }
+
+  .bands-item {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+
+    padding: 5px;
+    background-color: red;
+    border-color: black;
+    border-width: thick;
+    border-style: double;
+
+    /* width: 600px; */
+      /* line-height: 40px;
+   margin: 10px; */
+
+  }
+
+
+.float-image-left {
+   float: left;
+
+}
+.float-image-right {
+   float: left;
+ padding: 0 1 10px 0;
+}
+
+#lagayan-ng-myPix {
+  width: 50px;
+  height: 50px;
+}
+#MainDiv {
+background-color: gray;
+min-height:  100%;
+}
+#MainDivr1 {
+    background-color: blue;
+}
+
+
+
+#lagayan-ng-JazzHousePix {
+  height: 100%;
+  width: 75%;
+}
+
+  /*  Extra small devices (portrait phones, less than 576px)  */
+  @media (max-width: 575px) {
+
+  }
+
+  /*  Small devices (landscape phones, 576px and up) - (min-width: 576px) and */
+  @media  (max-width: 767px) {
+    #lagayan-ng-myPix {
+        display: none;
+      }
+
+
+  }
+  /* < Medium devices (tablets, 768px and up)  (min-width: 768px) and */
+  @media (max-width: 991.98px) {
+    #lagayan-ng-myPix {
+        width: 150px;
+        height: 150px;  }
+
+
+      }
+
+
+  }
+  @media (max-width: 1199.98px) {
+    .lagayan-ng-beverages {
+        height:225px;
+        width:180px;
+      }
+  }
+
+  /* Large devices (desktops, 992px and up) - */
+  @media (min-width: 992px) and (max-width: 1199.98px) {
+
+  }
+
+  /* <Extra large devices (large desktops, 1200px and up)  */
+  @media (min-width: 1200px) {  }
